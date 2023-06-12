@@ -33,7 +33,7 @@
   </v-table>
 
   <v-dialog v-model="createDialog" width="auto">
-    <v-card min-width="50rem">
+    <v-card>
       <v-card-title>
         <h4 class="text-center text-lg mb-4">Adicionar novo veículo</h4>
       </v-card-title>
@@ -65,7 +65,7 @@
   </v-dialog>
 
   <v-dialog v-model="editDialog" width="auto">
-    <v-card min-width="50rem">
+    <v-card>
       <v-card-title>
         <h4 class="text-center text-lg mb-4">Editar informações do veículo</h4>
       </v-card-title>
@@ -97,7 +97,7 @@
   </v-dialog>
 
   <v-dialog v-model="deleteDialog" width="auto">
-    <v-card min-width="30rem">
+    <v-card>
       <v-card-title>
         <h4 class="text-center text-lg mb-4">Excluir registro</h4>
       </v-card-title>

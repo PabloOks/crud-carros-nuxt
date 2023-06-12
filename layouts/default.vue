@@ -7,7 +7,7 @@
     </ul>
   </header>
 
-  <main class="container p-4">
+  <main class="container p-4 max-w-full">
     <slot />
   </main>
 
